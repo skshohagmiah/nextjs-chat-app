@@ -43,7 +43,7 @@ console.log(state)
 
 
   return (
-  <div>
+  <div className="p-3">
     {user ? 
     <main className="bg-blue-300 flex items-center justify-center h-screen">
       <div className="bg-white/70 w-screen h-screen flex sm:w-4/5 sm:h-4/5 rounded-lg shadow-lg ">
