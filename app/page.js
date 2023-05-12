@@ -43,7 +43,7 @@ console.log(state)
 
 
   return (
-  <div className="p-3">
+  <div className="">
     {user ? 
     <main className="bg-blue-300 flex items-center justify-center h-screen">
       <div className="bg-white/70 w-screen h-screen flex sm:w-4/5 sm:h-4/5 rounded-lg shadow-lg ">
@@ -51,7 +51,7 @@ console.log(state)
         <Chat user= {user} state={state} dispatch={dispatch}   />
       </div>
     </main>:
-    <Loginpage />
+    <div className="p-2"><Loginpage /></div>
     }
   </div>
     
