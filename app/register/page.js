@@ -97,7 +97,7 @@ const RegisterPage = () => {
 
 
   return (
-    <div className="bg-blue-300 p-0 m-0s w-full overflow-hidden h-screen flex items-center justify-center">
+    <div className="bg-blue-300 p-2 m-0s w-full overflow-hidden h-screen flex items-center justify-center">
     <div className="border p-2 flex flex-col items-center bg-white rounded-md">
         <p className="font-bold text-3xl text-blue-500 capitalize p-2">my chat</p>
         <p className="font-thin text-blue-500 capitalize ">register</p>
