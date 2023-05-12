@@ -20,7 +20,7 @@ const handleSubmit = async(e) => {
 
 
     return (
-        <div className="bg-blue-300 h-screen flex items-center justify-center">
+        <div className="bg-blue-300 p-2 h-screen flex items-center justify-center">
         <div className="border p-2 flex flex-col items-center bg-white rounded-md">
             <p className="font-bold text-3xl text-blue-500 capitalize p-2">my chat</p>
             <p className="font-thin text-blue-500 capitalize ">login</p>
